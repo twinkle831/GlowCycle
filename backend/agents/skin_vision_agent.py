@@ -24,7 +24,7 @@ async def analyze_skin(image_path: str, user_id: str) -> dict:
     vision_url = os.getenv("VLLM_VISION_URL", "http://localhost:8001/v1")
 
     payload = {
-        "model": "llava-hf/llava-v1.6-mistral-7b-hf",
+        "model": "llava-hf/llava-1.5-7b-hf",
         "messages": [
             {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user", "content": [

@@ -46,7 +46,7 @@ Cycle day: {ctx.cycle_day or 'not tracked'} of {ctx.cycle_length}
 """
     text_url = os.getenv("VLLM_TEXT_URL", "http://localhost:8000/v1")
     payload = {
-        "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+        "model": "mistralai/Mistral-7B-Instruct-v0.3",
         "messages": [
             {"role": "system", "content": SYSTEM},
             {"role": "user",   "content": msg}
