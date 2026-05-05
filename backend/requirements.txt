@@ -7,9 +7,8 @@ redis[asyncio]==5.0.4
 asyncpg==0.29.0
 pgvector==0.2.5
 sentence-transformers==3.0.0
-crewai==0.28.0
-langchain==0.2.0
-langchain-community==0.2.0
+crewai
+langchain-community
 python-multipart==0.0.9
 pillow==10.3.0
 python-dotenv==1.0.1
